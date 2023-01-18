@@ -10,4 +10,4 @@ def read_item():
 
 @app.post("/")
 def read_item_():
-    return {"method": "post"}
+    return {"method": "post", "payload": "api data"}
