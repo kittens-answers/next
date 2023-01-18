@@ -5,5 +5,5 @@
 </template>
 
 <script setup>
-const { data: payload } = await useFetch('https://stage-api.kittensanswers.ru/')
+const { data: payload } = await useFetch('https://stage-api.kittensanswers.ru/', { method: 'POST' })
 </script>
