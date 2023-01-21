@@ -7,7 +7,6 @@
 </template>
 
 <script setup>
-useHead({ script: { src: "https://telegram.org/js/telegram-web-app.js" } })
 const fetchData = ref("")
 const tg = useTG()
 const fetchApi = async () => {
